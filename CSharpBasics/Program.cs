@@ -22,7 +22,6 @@ namespace CSharpBasics
             string theLie = "I am not a ninja.";
             Console.WriteLine("This is my String. " + myString1);
             Console.WriteLine($"Here are two truths and a a lie. {theTruth}. {theLie}");
-     
         }
     }
 }
