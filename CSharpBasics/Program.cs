@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading;
 using System.ComponentModel.DataAnnotations;
-
 namespace CSharpBasics
 {
     class Program
