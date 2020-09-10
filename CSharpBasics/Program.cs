@@ -18,9 +18,15 @@ namespace CSharpBasics
             //CastingTypes();
             //myHoomans();
             //myVideos();
-            FlowControl.FCIfElse();
+            //FlowControl.FCIfElse();
+            RunArrayAndLists();
+        }
+        static void RunArrayAndLists()
+        {
+            ArrayAndLists.MyArrays();
         }
 
+        
 
 
         static void myVideos()
