@@ -57,6 +57,22 @@ namespace CSharpBasics
             int width = 3;
             int height = 3;
             int[,] myGrid = new int[width, height];
+            myGrid[0, 0] = 00;
+            myGrid[0, 1] = 01;
+            myGrid[0, 2] = 02;
+            myGrid[1, 0] = 10;
+            myGrid[2, 0] = 20;
+            myGrid[2, 1] = 21;
+            myGrid[2, 2] = 22;
+
+            for (int x = 0; x < width; x++)
+            {
+                for(int y = 0; y < height; y++)
+                {
+                    Console.WriteLine(myGrid[x, y] + ", ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
